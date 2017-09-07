@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.Help {
+
+    height: 400px;
+    width: 600px;
+    position: relative;
+    border: 3px solid gray;
+}
+ img{
+    height: 100%;
+    width: 100%;
+}
+.Help span{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 0;
+    display: none;
+    width: 100%;
+
+}
+div.Help:hover span {
+    bottom: 0px;
+    display: block;
+}
